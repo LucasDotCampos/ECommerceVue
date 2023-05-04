@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-container {
+  @apply flex flex-col min-h-[calc(100vh-64px)] items-center bg-neutral py-16 gap-10;
+}
